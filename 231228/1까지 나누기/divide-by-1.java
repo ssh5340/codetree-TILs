@@ -5,19 +5,19 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        double n = Double.parseDouble(br.readLine());
-        double mok = n;
-        double cnt = 1;
+        int n = Integer.parseInt(br.readLine());
+        int mok = n;
+        int cnt = 1;
 
         while (true) {
             mok /= cnt;
-            if (mok < 1) {
+            if (mok <= 1) {
                 break;
             }
             cnt++;
         }
 
-        bw.write(String.format("%.0f", cnt));
+        bw.write(String.valueOf(cnt));
         bw.flush();
         bw.close();
         br.close();
