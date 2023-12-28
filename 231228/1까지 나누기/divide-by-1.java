@@ -5,9 +5,9 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        double n = Integer.parseInt(br.readLine());
+        int n = Integer.parseInt(br.readLine());
         double mok = n;
-        int cnt = 1;
+        double cnt = 1;
 
         while (true) {
             mok /= cnt;
@@ -17,7 +17,7 @@ public class Main {
             cnt++;
         }
 
-        bw.write(String.valueOf(cnt));
+        bw.write(String.format("%.0f", cnt));
         bw.flush();
         bw.close();
         br.close();
