@@ -5,12 +5,13 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int n = Integer.parseInt(br.readLine());
+        double n = Integer.parseInt(br.readLine());
+        double mok = n;
         int cnt = 1;
 
         while (true) {
-            n /= cnt;
-            if (n < 1) {
+            mok /= cnt;
+            if (mok < 1) {
                 break;
             }
             cnt++;
