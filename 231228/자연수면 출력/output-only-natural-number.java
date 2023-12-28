@@ -16,6 +16,8 @@ public class Main {
             for (int i = 0; i < b; i++) {
                 bw.write(String.valueOf(a));
             }
+        } else {
+            bw.write("0");
         }
 
         bw.flush();
