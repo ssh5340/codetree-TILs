@@ -6,12 +6,11 @@ public class Main {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         int n = Integer.parseInt(br.readLine());
-        int mok = n;
         int cnt = 1;
 
         while (true) {
-            mok /= cnt;
-            if (mok < 1) {
+            n /= cnt;
+            if (n < 1) {
                 break;
             }
             cnt++;
