@@ -9,7 +9,7 @@ public class Main {
         int mok = n;
         int cnt = 1;
 
-        while (mok >= 1) {
+        while (true) {
             mok /= cnt;
             if (mok < 1) {
                 break;
