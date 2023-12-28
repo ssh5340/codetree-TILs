@@ -5,7 +5,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int n = Integer.parseInt(br.readLine());
+        double n = Double.parseDouble(br.readLine());
         double mok = n;
         double cnt = 1;
 
