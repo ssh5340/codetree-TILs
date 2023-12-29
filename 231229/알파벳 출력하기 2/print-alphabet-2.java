@@ -13,7 +13,7 @@ public class Main {
                 bw.write("  ");
             }
             for (int j = n - i; j > 0; j--) {
-                if (cnt == 90) {
+                if (cnt == 91) {
                     cnt = 65;
                 }
                 char result = (char)cnt;
