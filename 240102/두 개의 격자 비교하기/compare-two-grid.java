@@ -22,7 +22,7 @@ public class Main {
                 if (i < a) {
                     arr1[i][j] = Integer.parseInt(st2.nextToken());
                 } else {
-                    arr2[i - 4][j] = Integer.parseInt(st2.nextToken());
+                    arr2[i - a][j] = Integer.parseInt(st2.nextToken());
                 }
             }
         }
